@@ -3,7 +3,7 @@
 }
 
 .btn-amosis {
-    background-color: #97c93e;
+    background-color: #67c93e;
     color: white;
 }
 
@@ -35,7 +35,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.00);
     color: white;
 }
 
@@ -55,4 +55,17 @@
 
 #footer a {
    color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
 }
